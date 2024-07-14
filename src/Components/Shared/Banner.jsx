@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div
-      className="hero md:h-96 relative"
+      className="hero h-48 md:h-96  relative"
       style={{
         backgroundImage:
           "url(https://images.pexels.com/photos/47730/the-ball-stadion-football-the-pitch-47730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",

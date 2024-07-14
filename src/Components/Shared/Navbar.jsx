@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../../../public/images/90minfc.png";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -81,8 +82,8 @@ const Navbar = () => {
   );
   return (
     <div
-      className={`navbar text-white fixed z-10 ${
-        scrolled ? "bg-white bg-opacity-80 text-black" : "bg-transparent"
+      className={`navbar text-black md:text-white fixed z-10 ${
+        scrolled ? "bg-blue-400" : "bg-transparent text-white"
       } transition-colors duration-300`}
     >
       <div className="navbar-start">
@@ -111,7 +112,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex justify-center items-center ml-7">
-          <img className="w-8 h-8" src="/public/images/90minfc.png" alt="" />
+          <img className="w-8 h-8" src={logo} alt="" />
           <a className="btn btn-ghost text-xl p-0 font-mono">90 Minutes FC</a>
         </div>
       </div>

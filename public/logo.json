@@ -1,0 +1,34 @@
+[
+  {
+    "image": "/src/assets/aboutus.png",
+    "name": "About Us"
+  },
+  {
+    "image": "/src/assets/tournament.png",
+    "name": "Tournament"
+  },
+  {
+    "image": "/src/assets/rules.png",
+    "name": "Rules"
+  },
+  {
+    "image": "/src/assets/fixture.png",
+    "name": "Fixture"
+  },
+  {
+    "image": "/src/assets/pointtable.png",
+    "name": "Point Table"
+  },
+  {
+    "image": "/src/assets/PlayerProfilepng.png",
+    "name": "Player Profile"
+  },
+  {
+    "image": "/src/assets/mnpl.jpg",
+    "name": "Matha Nosto Premier League"
+  },
+  {
+    "image": "/src/assets/playerrank.png",
+    "name": "Player Rankings"
+  }
+]
